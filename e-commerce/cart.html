@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a  href="contact.html">contact</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="fas fa-shopping-cart"></i><span class="cartct">0</span></a></li>
+                <a href="#" id="close"><i class="fas fa-times"></i></a>
+
+            </ul>
+            <div id="mobile">
+                <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+        </div>
+    </section>
+    <section id="page-header" class="about-header">
+
+        <h2>#let's_talk</h2>
+
+        <p>LEAVE A MESSAGE.Welove to hear from you!</p>
+
+    </section>
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody class="cart-item">
+                <!-- <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f1.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirts</td>
+                    <td>Rs.118.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>Rs.118.19</td>
+                </tr> -->
+                <!-- <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f2.jpg" alt=""></td>
+                    <td>flower Astronaut T-Shirts</td>
+                    <td>Rs.178.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>Rs.118.19</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f3.jpg" alt=""></td>
+                    <td>Cartoon flower T-Shirts</td>
+                    <td>Rs.158.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>Rs.158.19</td>
+                </tr> -->
+            </tbody>
+        </table>
+    </section>
+<section id="cart-add" class="section-p1">
+<div id="coupon" >
+    <h3>Apply Coupon</h3>
+    <div>
+        <input type="text" placeholder="Enter Your Coupon">
+        <button class="normal">Apply</button>
+    </div>
+</div>
+<div id="subtotal">
+    <h3>Cart Totals</h3>
+    <table>
+        <tr>
+            <td>Cart Subtotals</td>
+            <td class="totprice">$0</td>
+        </tr>
+        <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+        </tr>
+        <tr>
+            <td><strong>Total</strong></td>
+            <td class="prtot"><strong>$0</strong></td>
+        </tr>
+    </table>
+    <a href="checkout.html"><button class="normal">Proceed to checkout</button></a>
+</div>
+</section>
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> Hunasmarranhalli,Yelhanka,Bengalur</p>
+            <p><strong>Phone: </strong> 8228897123 / 9525322661</p>
+            <p><strong>Hours: </strong> 10:00 - 18:00 , Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Installl App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>From App Store or Google Play</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>@ 2021, SIR MVIT -HTML CSS Ecommerce Template</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
